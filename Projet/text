@@ -1,0 +1,95 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@epoundor 
+bedimcode
+/
+responsive-portfolio-website-Alexa
+Public
+15
+486491
+Code
+Issues
+1
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+responsive-portfolio-website-Alexa/Text Portfolio Alexa.txt
+@bedimcode
+bedimcode Add files via upload
+Latest commit 658f231 on 11 May
+ History
+ 1 contributor
+50 lines (34 sloc)  1.1 KB
+  
+* HOME
+home__social
+https://www.linkedin.com/
+https://dribbble.com/
+https://github.com/
+
+home__description
+High level experience in web design and development knowledge, producing quality work.
+
+
+* ABOUT
+about__description
+Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+
+about__info-name
+Years <br> experience
+Completed <br> project
+Companies <br> worked
+
+
+* SERVICES
+services__modal-service
+I develop the user interface.
+Web page development.
+I create ux element interactions.
+I position your company brand.
+
+
+* PORTFOLIO
+portfolio__description
+Website adaptable to all devices, with ui components and animated interactions.
+
+
+* PROJECT
+project__description
+Contact me now and get a 30% discount on your new project.
+
+
+* TESTIMONIAL
+testimonial__description
+I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+
+
+* FOOTER
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
