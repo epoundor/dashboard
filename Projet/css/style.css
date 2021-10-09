@@ -77,6 +77,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
+    transition: .3s,ease-in-out;
 }
 html{
     scroll-behavior: smooth;
@@ -330,9 +331,92 @@ header{
     display: flex;
     justify-content: center;
 }
-/*==================== SKILLS ====================*/
-
-
+/*==================== SKILLS ====================*/.skill__
+.skill__container{
+    row-gap: 0;
+}
+.skill__header{
+    display:flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+.skill__icon,
+.skill__arrow{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--first-color);
+}
+.skill__icon{
+    margin-right: var(--mb-0-75);
+}
+.skill__title{
+    font-size: var(--h3-font-size);
+}
+.skill__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+.skill__arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+.skill__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:var(--mb-0-5) ;
+}
+.skill__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.skill__bar,
+.skill__percent{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skill__bar{
+    background-color: var(--first-color-lighter);
+}
+.skill__percent{
+    display: block;
+    background-color: var(--first-color);
+}
+.skill__html{
+    width: 95%;
+}
+.skill__css{
+    width: 80%;
+}
+.skill__jquery{
+    width: 75%;
+}
+.skill__react{
+    width: 60%;
+}
+.skill__php{
+    width: 95%;
+}
+.skill__sql{
+    width: 90%;
+}
+.skill__symphony{
+    width: 75%;
+}
+.skill__node{
+    width: 60%;
+}
+.skill__open .skill__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+.skill__open .skill__arrow{
+    transform: rotate(-180deg);
+}
+.skill__close .skill__list{
+    height: 0;
+    overflow: hidden;
+}
 /*==================== QUALIFICATION ====================*/
 
 
@@ -359,7 +443,9 @@ header{
 
 /*========== SCROLL UP ==========*/
 
-
+.noir{
+    background-color: #000;
+}
 /* Show scroll */
 
 
